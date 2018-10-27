@@ -1,0 +1,20 @@
+.pig {
+    width: 200px;
+    position: fixed;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-name: pig;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+}
+
+@keyframes pig {
+    from{
+        left: 70%;
+        top: 0px;
+    }
+    to{
+        left: 15%;
+        top: 0px;
+    }
+}
