@@ -1,0 +1,12 @@
+
+.header {
+    background-color: pink;
+    color: black;
+    height: 100px;
+    padding: 50px;
+    text-align: center;
+}
+.footer{
+    background-color: #b6c6d2;
+    height:50px;
+}
