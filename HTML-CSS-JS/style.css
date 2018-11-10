@@ -31,20 +31,18 @@
 }
 
 .logo{
-    width: 30%;
     float: left;
+    width: 25%;
 }
 
 .logo img{
-    vertical-align: middle;
-    width: 50px;
-    height: 50px;
+    width: 100%;
     border-radius: 50%;
 }
 
 .banner{
-    width: 30%;
     float: left;
+    width: 70%;
 }
 
 .banner img{
@@ -52,7 +50,7 @@
 }
 
 .slogan{
-    background-color: #cccccc;
+    border: 3px solid #f1f1f1;
     text-align: center;
     font-family: Indie Flower;
 }
@@ -62,8 +60,9 @@ body {
     margin: 50px;
 }
 
-h2{
+h1{
     font-family: Indie Flower;
+    text-align: center;
 }
 
 form {
@@ -81,10 +80,10 @@ form {
 
 .footer{
     text-align: center;
-    border: 1px pink solid;
+    border: 3px solid #f1f1f1;
 }
 
-input[type=text], input[type=email]{
+input[type=text], input[type=email], input[type=button]{
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -105,12 +104,10 @@ input[type=text], input[type=email]{
     display: none;
 }
 
- /*For mobile phones: *!*/
 [class*="col-"] {
     width: 100%;
 }
 @media only screen and (min-width: 600px) {
-    /* For tablets: */
     .col-s-1 {width: 8.33%;}
     .col-s-2 {width: 16.66%;}
     .col-s-3 {width: 25%;}
@@ -125,7 +122,6 @@ input[type=text], input[type=email]{
     .col-s-12 {width: 100%;}
 }
 @media only screen and (min-width: 768px) {
-    /* For desktop: */
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
     .col-3 {width: 25%;}
