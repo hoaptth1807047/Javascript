@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sunshine's Playlist</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            font-family: Tahoma;
+            margin: 7px;
+        }
+
+        .song-player{
+            padding-top: 80px;
+        }
+
+        .song-item {
+            border: 1px solid rgba(13,23,20,0.2);
+            border-radius: 10px;
+        }
+        .song-item:after {
+            content: '';
+            clear: both;
+            display: table;
+        }
+        .song-index {
+            float: left;
+            width: 5%;
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+            padding-top: 2%;
+            padding-left: 1%;
+        }
+        .song-thumbnail {
+            float: left;
+            width: 10%;
+        }
+        .song-thumbnail img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .song-infor {
+            padding-top: 1%;
+            float: left;
+            width: 20%;
+        }
+        .song-infor .song-name {
+            font-weight: bold;
+        }
+        .song-infor .song-singer {
+            font-weight: lighter;
+            color: rgba(0,0,23,0.47);
+        }
+        .song-control {
+            padding-top: 3%;
+            color: dodgerblue;
+            cursor: pointer;
+            text-decoration: underline;
+            float: left;
+            width: 10%;
+        }
+
+        .song-detail {
+            float: left;
+            width: 50%;
+            padding-top: 0.5%;
+            font-weight: bold;
+        }
+
+        .clear{
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+<div class="navbar">
+    <div class="logo">
+        <img src="sunshine.jpg" alt="Sunshine">
+    </div>
+    <div class="menu">
+        <ul>
+            <li><a href="index.html" title="My Song">My Song</a></li>
+            <li><a href="create-song.html" title="Create Song">Create Song</a></li>
+            <li><a href="latest-song.html" title="Lastest Song">Lastest Song</a></li>
+            <li><a href="member-login.html" title="Member Login">Login</a></li>
+            <li><a href="register-member.html" title="Register member">Register</a></li>
+        </ul>
+    </div>
+</div>
+<div class="clear">
+</div>
+<div class="song-player">
+    <div class="song-detail">
+        <marquee behavior="scroll" direction="left">
+            <div class="current-song-title">
+                <span id="current-play-title"></span>
+            </div>
+        </marquee>
+    </div>
+    <div class="player">
+        <audio controls id="my-mp3" autoplay>
+            <source src="" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+</div>
+
+<div class="list-song" id="list-song">
+</div>
+<script src="lastest-song.js"></script>
+</body>
+</html>

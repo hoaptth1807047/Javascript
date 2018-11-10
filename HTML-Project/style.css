@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+.navbar{
+    width: 100%;
+}
+
+.navbar .logo{
+    width: 30%;
+    float: left;
+}
+
+.navbar .logo img{
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.navbar .menu{
+    width: 65%;
+    float: left;
+}
+
+.navbar .menu ul li{
+    list-style: none;
+    text-align: right;
+    float: left;
+}
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: rgba(202, 0, 35, 0.1803921568627451);
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+    font-family: Indie Flower;
+    font-style: italic;
+    float: left;
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: white;
+    color: palevioletred;
+}
+
+/* Main content */
+.main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+.main img{
+    width: 100%;
+}
