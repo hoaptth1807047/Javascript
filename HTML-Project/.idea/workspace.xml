@@ -2,39 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5895ef3f-3779-400f-b4e8-65958c5477c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/create-song.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/create-song.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lastest-song.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/latest-song.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/member-login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/member-login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myjs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/register-member.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/register-member.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Register/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Register/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Register/myjs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Register/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../T1809E/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../T1809E/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../T1809E/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Youtube-t1809E/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Youtube-t1809E/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Youtube-t1809E/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo-responstive/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo-responstive/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo-responstive/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../20-10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20-10/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../20-10/myjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/../20-10/myjs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Form-demo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Form-demo/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Form-demo/myjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Form-demo/myjs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML-CSS-JS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HTML-CSS-JS/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML-CSS-JS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../HTML-CSS-JS/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML-CSS-JS/myjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/../HTML-CSS-JS/myjs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML-CSS-JS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../HTML-CSS-JS/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/create-song.html" beforeDir="false" afterPath="$PROJECT_DIR$/create-song.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/create-song.js" beforeDir="false" afterPath="$PROJECT_DIR$/create-song.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lastest-song.js" beforeDir="false" afterPath="$PROJECT_DIR$/lastest-song.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latest-song.html" beforeDir="false" afterPath="$PROJECT_DIR$/latest-song.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member-login.html" beforeDir="false" afterPath="$PROJECT_DIR$/member-login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member-login.js" beforeDir="false" afterPath="$PROJECT_DIR$/member-login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/myjs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register-member.html" beforeDir="false" afterPath="$PROJECT_DIR$/register-member.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register-member.js" beforeDir="false" afterPath="$PROJECT_DIR$/register-member.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Mp3/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mp3/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Mp3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mp3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Mp3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Mp3/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Mp3/myjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Mp3/myjs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Mp3/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyJavascript/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../MyJavascript/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Register/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Register/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Register/myjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Register/myjs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Register/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Register/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Search-my-tube- advanced/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Search-my-tube- advanced/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Search-my-tube- advanced/myjs.js" beforeDir="false" />
@@ -42,12 +40,21 @@
       <change beforePath="$PROJECT_DIR$/../Search-my-tube-advanced/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Search-my-tube-advanced/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Search-my-tube-advanced/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Search-my-tube-advanced/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Search-my-youtube/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Search-my-youtube/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Search-my-youtube/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Search-my-youtube/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Search-my-youtube/myjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Search-my-youtube/myjs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Search-my-youtube/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Search-my-youtube/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T1809E/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../T1809E/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T1809E/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../T1809E/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Table-Demo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Table-Demo/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Validate-using-JQuery/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Validate-using-JQuery/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Youtube-t1809E/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Youtube-t1809E/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../check/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../check_my_game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../check_my_game/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../check_my_game/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../check_my_game/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../check_my_game/myjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/../check_my_game/myjs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../check_my_game/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../check_my_game/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-responstive/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../demo-responstive/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-responstive/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../demo-responstive/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../demo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../object/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../object/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../object/myjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/../object/myjs.js" afterDir="false" />
@@ -72,66 +79,58 @@
     <session id="456691934">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="18" />
+          <entry key="project.open.time.0" value="7" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.6" value="4" />
+          <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="2" />
-          <entry key="html" value="18" />
-          <entry key="js" value="5" />
+          <entry key="css" value="5" />
+          <entry key="html" value="40" />
+          <entry key="js" value="26" />
+          <entry key="php" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="2" />
-          <entry key="HTML" value="18" />
-          <entry key="JavaScript" value="5" />
+          <entry key="CSS" value="5" />
+          <entry key="HTML" value="40" />
+          <entry key="JavaScript" value="26" />
+          <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="327" />
-          <entry key="html" value="1740" />
-          <entry key="js" value="133" />
+          <entry key="css" value="412" />
+          <entry key="html" value="1905" />
+          <entry key="js" value="557" />
+          <entry key="php" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="327" />
-          <entry key="HTML" value="1740" />
-          <entry key="JavaScript" value="133" />
+          <entry key="CSS" value="412" />
+          <entry key="HTML" value="1905" />
+          <entry key="JavaScript" value="557" />
+          <entry key="PLAIN_TEXT" value="5" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myjs.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/create-song.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-441">
-              <caret line="56" column="14" lean-forward="true" selection-start-line="54" selection-start-column="26" selection-end-line="56" selection-end-column="14" />
+            <state relative-caret-position="655">
+              <caret line="87" column="47" lean-forward="true" selection-start-line="87" selection-start-column="47" selection-end-line="87" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -139,44 +138,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/create-song.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-456">
-              <caret line="15" column="63" lean-forward="true" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
+            <state relative-caret-position="275">
+              <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/register-member.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="97" column="14" selection-start-line="97" selection-start-column="14" selection-end-line="97" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lastest-song.js">
+        <entry file="file://$PROJECT_DIR$/myjs.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/member-login.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-295">
-              <caret line="41" column="54" lean-forward="true" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/register-member.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="76" column="5" lean-forward="true" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/member-login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="116" column="39" lean-forward="true" selection-start-line="116" selection-start-column="39" selection-end-line="116" selection-end-column="39" />
+            <state relative-caret-position="399">
+              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -193,24 +174,26 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/home.html" />
-        <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/my-playlist.html" />
-        <option value="$PROJECT_DIR$/lastest-song.js" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/config.js" />
         <option value="$PROJECT_DIR$/myjs.js" />
+        <option value="$PROJECT_DIR$/lastest-song.js" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/latest-song.html" />
-        <option value="$PROJECT_DIR$/member-login.html" />
         <option value="$PROJECT_DIR$/register-member.html" />
         <option value="$PROJECT_DIR$/register-member.js" />
         <option value="$PROJECT_DIR$/member-login.js" />
-        <option value="$PROJECT_DIR$/create-song.html" />
+        <option value="$PROJECT_DIR$/member-login.html" />
         <option value="$PROJECT_DIR$/create-song.js" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/create-song.html" />
       </list>
     </option>
   </component>
@@ -221,10 +204,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="85" />
-    <option name="y" value="25" />
-    <option name="width" value="1750" />
-    <option name="height" value="970" />
+    <option name="y" value="22" />
+    <option name="width" value="1440" />
+    <option name="height" value="807" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -232,7 +214,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -244,15 +225,21 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Register" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\WebstormProjects\HTML-Project" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -281,12 +268,25 @@
       <workItem from="1541756093288" duration="987000" />
       <workItem from="1541762582054" duration="674000" />
       <workItem from="1541769605117" duration="17283000" />
-      <workItem from="1541817740754" duration="10910000" />
+      <workItem from="1541817740754" duration="14359000" />
+      <workItem from="1541839233431" duration="57000" />
+      <workItem from="1541839818821" duration="3104000" />
+      <workItem from="1541847411402" duration="477000" />
+      <workItem from="1541903030413" duration="3912000" />
+      <workItem from="1542025745673" duration="287000" />
+      <workItem from="1542026229674" duration="2996000" />
+      <workItem from="1542092362839" duration="755000" />
+      <workItem from="1542697646778" duration="11009000" />
+      <workItem from="1542718679214" duration="55000" />
+      <workItem from="1542788082960" duration="52000" />
+      <workItem from="1542798989023" duration="41000" />
+      <workItem from="1542800468290" duration="21000" />
+      <workItem from="1542800897816" duration="1985000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39240000" />
+    <option name="totallyTimeSpent" value="67440000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -304,7 +304,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -323,7 +323,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -338,79 +338,98 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/home.html" />
-    <entry file="file://$PROJECT_DIR$/my-playlist.html">
+    <entry file="file://$PROJECT_DIR$/my-playlist.html" />
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery-3.3.1.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        <state relative-caret-position="617">
+          <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lastest-song.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="399">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/latest-song.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="110" column="28" selection-start-line="110" selection-start-column="28" selection-end-line="110" selection-end-column="28" />
+        <state relative-caret-position="541">
+          <caret line="115" column="33" selection-start-line="115" selection-start-column="33" selection-end-line="115" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/member-login.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="116" column="39" lean-forward="true" selection-start-line="116" selection-start-column="39" selection-end-line="116" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/member-login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-295">
-          <caret line="41" column="54" lean-forward="true" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
+        <state relative-caret-position="370">
+          <caret line="115" column="16" lean-forward="true" selection-start-line="115" selection-start-column="16" selection-end-line="115" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/register-member.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="76" column="5" lean-forward="true" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
+        <state relative-caret-position="636">
+          <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/register-member.html">
+    <entry file="file://$PROJECT_DIR$/member-login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="50" column="9" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="50" selection-end-column="9" />
+        <state relative-caret-position="1225">
+          <caret line="103" column="43" lean-forward="true" selection-start-line="103" selection-start-column="43" selection-end-line="103" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/create-song.js">
+    <entry file="file://$PROJECT_DIR$/member-login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-456">
-          <caret line="15" column="63" lean-forward="true" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
+        <state relative-caret-position="617">
+          <caret line="57" column="13" lean-forward="true" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/create-song.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-441">
-          <caret line="56" column="14" lean-forward="true" selection-start-line="54" selection-start-column="26" selection-end-line="56" selection-end-column="14" />
+        <state relative-caret-position="655">
+          <caret line="87" column="47" lean-forward="true" selection-start-line="87" selection-start-column="47" selection-end-line="87" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myjs.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        <state relative-caret-position="399">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create-song.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register-member.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="97" column="14" selection-start-line="97" selection-start-column="14" selection-end-line="97" selection-end-column="14" />
         </state>
       </provider>
     </entry>

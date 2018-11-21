@@ -1,90 +1,114 @@
-var REGISTER_API = 'https://2-dot-backup-server-003.appspot.com/_api/v2/members';
-var btnSubmit = document.forms['register-form']['btn-submit'];
-if (btnSubmit != null) {
-    btnSubmit.onclick = function () {
-        var txtFirstName = document.forms['register-form']['firstName'];
-        var txtLastName = document.forms['register-form']['lastName'];
-        var pwdPassword = document.forms['register-form']['password'];
-        var txtAddress = document.forms['register-form']['address'];
-        var txtPhone = document.forms['register-form']['phone'];
-        var txtAvatar = document.forms['register-form']['avatar'];
-        var selectGender = document.forms['register-form']['gender'];
-        var txtEmail = document.forms['register-form']['email'];
-        var dateBirthday = document.forms['register-form']['birthday'];
-        var d = new Date(dateBirthday.value);
-        var myDate = d.getFullYear() + '-' + (d.getMonth() + 1) + '-'
-            + (d.getDate() < 10 ? '0' + d.getDate() : d.getDate());
-        if (txtFirstName != null && txtLastName != null) {
-            var firstName = txtFirstName.value;
-            var lastName = txtLastName.value;
-            var password = pwdPassword.value;
-            var address = txtAddress.value;
-            var phone = txtPhone.value;
-            var avatar = txtAvatar.value;
-            var gender = selectGender.value;
-            var email = txtEmail.value;
-            var birthday = dateBirthday.value;
-            var jsMember = {
-                firstName: firstName,
-                lastName: lastName,
-                password: password,
-                address: address,
-                phone: phone,
-                avatar: avatar,
-                gender: gender,
-                email: email,
-                birthday: birthday,
-            };
-            var jsonData = JSON.stringify(jsMember);
-            postRegisterData(jsonData);
+var validator = $('#register-form').validate({
+    rules:{
+        firstName:{
+            required: true,
+            minlength: 2,
+            maxlength: 10
+        },
+        lastName:{
+            required: true,
+            minlength: 2,
+            maxlength: 10
+        },
+        email:{
+            required: true,
+            email: true
+        },
+        password:{
+            required: true,
+            minlength: 2,
+            maxlength: 10
+        },
+        'confirm-password': {
+            equalTo: '[name="password"]'
         }
-    }
-}
-btnSubmit.onclick= function () {
-    var txtFirstName = document.forms["register-form"]["firstName"];
-    var msgFirstName = txtFirstName.nextElementSibling;
-    if (txtFirstName == null || txtFirstName.value.length == 0) {
-        msgFirstName.innerHTML = "* Vui lòng nhập tên.";
-        msgFirstName.classList.remove("hidden-text");
-    } else if (txtFirstName.value.length < 1) {
-        msgFirstName.innerHTML = "* Tên của bạn quá ngắn.";
-        msgFirstName.classList.remove("hidden-text");
-    } else if (txtFirstName.value.length > 20) {
-        msgFirstName.innerHTML = "* Tên của bạn quá dài.";
-        msgFirstName.classList.remove("hidden-text");
-    } else {
-        msgFirstName.innerHTML = "Tên hợp lệ.";
-        msgFirstName.classList.remove("hidden-text");
-        msgFirstName.classList.remove("danger-text");
-        msgFirstName.classList.add("success-text");
-    }
+    },
+    messages:{
+        firstName:{
+            required: 'Vui lòng nhập tên của bạn',
+            minlength: 'Tên của bạn quá ngắn. Vui lòng nhập ít nhất {0} kí tự.',
+            maxlength: 'Tên của bạn quá dài. Vui lòng nhập nhiều nhất {0} kí tự.'
+        },
+        lastName:{
+            required: 'Vui lòng nhập họ của bạn',
+            minlength: 'Họ của bạn quá ngắn. Vui lòng nhập ít nhất {0} kí tự.',
+            maxlength: 'Họ của bạn quá dài. Vui lòng nhập nhiều nhất {0} kí tự.'
+        },
+        email:{
+            required: 'Vui lòng nhập email của bạn.',
+            email: 'Vui lòng nhập email đúng dịnh dạng.'
+        },
+        password: {
+            required: 'Vui lòng nhập password.',
+            minlength: 'Password quá ngắn, vui lòng nhập ít nhất {0} ký tự',
+            maxlength: 'Password quá dài, vui lòng nhập nhiều nhất {0} ký tự',
+        },
+        'confirm-password': {
+            equalTo: 'Password và confirm không giống nhau.'
+        }
+    },
+    submitHandler: function (form, event) {
+        event.preventDefault();
+        var senderObject = {
+            firstName: $(form["firstName"]).val(),
+            lastName: $(form["lastName"]).val(),
+            email: $(form["email"]).val(),
+            password: $(form["password"]).val(),
+            address: $(form["address"]).val(),
+            phone: $(form["phone"]).val(),
+            gender: $(form["gender"]).val(),
+            avatar: $(form["avatar"]).val(),
+            birthday: $(form["birthday"]).val(),
+        };
+        $.ajax({
+            url: REGISTER_API,
+            type: 'POST',
+            contentType: "application/json; charset=utf-8",
+            data: JSON.stringify(senderObject),
+            success: function (data, textStatus, jqXHR) {
+                console.log('success');
+                console.log(data);
+                console.log('----');
+                console.log(data.responseText);
+                console.log('----');
+                console.log(textStatus);
+                console.log('----');
+                console.log(jqXHR);
+                alert('Success')
+            },
+            error: function (jqXHR, textStatus, errorThrown) {
+                console.log('error');
+                console.log(jqXHR);
+                console.log('-----');
+                console.log(jqXHR.responseText);
+                console.log('-----');
+                console.log(jqXHR.responseJSON.error);
+                console.log('-----');
+                console.log(textStatus);
+                console.log('-----');
+                console.log(errorThrown);
+                if(jqXHR.responseJSON.error.size > 0){
+                    validator.showErrors({
+                        firstName: 'Message loi' + jqXHR.responseJSON.error.size
+                    });
+                }else{
+                    validator.showErrors({
+                        email: 'Message loi'
+                    });
+                }
 
-    var txtPassword = document.forms["register-form"]["password"];
-    var msgPassword = txtPassword.nextElementSibling;
-    if (txtPassword == null || txtPassword.value.length == 0) {
-        msgPassword.innerHTML = "* Vui lòng nhập password.";
-        msgPassword.classList.remove("hidden-text");
+            }
+        });
     }
-    var txtEmail = document.forms["register-form"]["email"];
-    var msgEmail = txtEmail.nextElementSibling;
-    var aCong = txtEmail.value.indexOf("@");
-    if (txtEmail == null || txtEmail.value.length == 0) {
-        msgEmail.innerHTML = "* Vui lòng nhập email.";
-        msgEmail.classList.remove("hidden-text");
-    } else if (aCong < 0) {
-        msgEmail.innerHTML = "* Email phải có '@'.";
-        msgEmail.classList.remove("hidden-text");
-    }
+});
+
+function formDate(date) {
+    var d = new Date(date),
+        month = '' + (d.getMonth() + 1),
+        day = '' + d.getDate(),
+        year = d.getFullYear();
+    if (month.length <2) month = '0' + month;
+    if (day.length <2) day = '0' + day;
+    return [year, month, day].join('-');
 }
-function postRegisterData(jsonData) {
-    var xmlHttpRequest = new XMLHttpRequest();
-    xmlHttpRequest.onreadystatechange = function () {
-        if (this.readyState == 4 && this.status == 201) {
-            var member = JSON.parse(this.responseText);
-            alert(member.id + '-' + member.firstName);
-        }
-    };
-    xmlHttpRequest.open('POST', REGISTER_API, true);
-    xmlHttpRequest.setRequestHeader("Content-type", "application/json");
-    xmlHttpRequest.send(jsonData);
-}
+

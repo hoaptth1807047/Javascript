@@ -1,85 +1,62 @@
-// var LOGIN_API = 'https://2-dot-backup-server-003.appspot.com/_api/v2/members/authentication';
-// var btnLogin = document.forms['register-form']['btn-login'];
-// if (btnLogin != null) {
-//     btnLogin.onclick = function () {
-//         var pwdPassword = document.forms['register-form']['password'];
-//         var txtEmail = document.forms['register-form']['email'];
-//         var jsLog = {
-//             password: pwdPassword.value,
-//             email: txtEmail.value,
-//         }
-//         var jsonDataLogin = JSON.stringify(jsLog);
-//         postLoginData(jsonDataLogin);
-//     }
-// }
-//
-// function postLoginData(jsonDataLogin) {
-//     var xmlHttpRequest = new XMLHttpRequest();
-//     xmlHttpRequest.onreadystatechange = function () {
-//         if (this.readyState == 4 && this.status == 201) {
-//             var member = JSON.parse(this.responseText);
-//             alert(member.token);
-//             // console.log(member.token);
-//         }
-//     }
-//     xmlHttpRequest.open('POST', LOGIN_API, true);
-//     xmlHttpRequest.setRequestHeader("Content-type", "application/json");
-//     xmlHttpRequest.send(jsonDataLogin);
-// }
+var validator= $('#login-member').validate({
+    rules: {
+        email: {
+            required: true,
+            email: true
+        },
+        password: {
+            required: true,
+            minlength: 2,
+            maxlength: 15
+        },
 
-var LOGIN_API = 'https://2-dot-backup-server-003.appspot.com/_api/v2/members/authentication';
-var btnLogin = document.forms['register-form']['btn-login'];
-if (btnLogin != null) {
-    btnLogin.onclick = function () {
-        var txtemail = document.forms['register-form']['email'];
-        var msgEmail = txtemail.nextElementSibling;
-        var aCong=txtemail.value.indexOf("@");
-        if (txtemail == null || txtemail.value.length == 0) {
-            msgEmail.innerHTML = "* Vui long nhap email.";
-            msgEmail.classList.remove("hidden-text");
+    },
+    messages: {
+        email: {
+            required: 'Vui lòng email của bạn.',
+            email: 'Vui lòng nhập email đúng định dạng'
+        },
+        password: {
+            required: 'Vui lòng nhập password.',
+            minlength: 'Password quá ngắn, vui lòng nhập ít nhất {0} ký tự',
+            maxlength: 'Password quá dài, vui lòng nhập nhiều nhất {0} ký tự',
         }
-        else if (aCong<1) {
-            msgEmail.innerHTML = "* Email phai co @.";
-            msgEmail.classList.remove("hidden-text");
-        }else {
-            msgEmail.innerHTML = "* Email hop le.";
-            msgEmail.classList.remove("hidden-text");
-            msgEmail.classList.remove("danger-text");
-            msgEmail.classList.add("success-text");
-        }
+    },
+    submitHandler: function (form, event) {
+        event.preventDefault();
+        var senderLoginObject = {
+            password: $(form["password"]).val(),
+            email: $(form["email"]).val(),
+        };
+        $.ajax(
+            {
+                url: LOGIN_API,
+                type: 'POST',
+                contentType: "application/json; charset=utf-8",
+                data: JSON.stringify(senderLoginObject),
+                success: function (data, textStatus, jqXHR) {
+                    console.log('success');
+                    console.log(data);
+                    console.log('-----');
+                    console.log(data.responseText);
+                    console.log('-----');
+                    console.log(textStatus);
+                    console.log('-----');
+                    console.log(jqXHR);
 
-        var txtPassword = document.forms['register-form']['password'];
-        var msgPassword = txtPassword.nextElementSibling;
-        if (txtPassword == null || txtPassword.value.length == 0) {
-            msgPassword.innerHTML = "* Vui long nhap password.";
-            msgPassword.classList.remove("hidden-text");
-        }else {
-            msgPassword.innerHTML = "*Password hop le.";
-            msgPassword.classList.remove("hidden-text");
-            msgPassword.classList.remove("danger-text");
-            msgPassword.classList.add("success-text");
-        }
-        var password = txtPassword.value;
-        var email = txtemail.value;
-        var jsMember = {
-            email: email,
-            password: password,
-        }
-        var jsonData = JSON.stringify(jsMember);
-        postRegisterData(jsonData);
+                    localStorage.setItem('token-key', data.token);
+                    alert(`Đăng nhập thành công. Token là ${data.token}`);
+                    window.location.href = "index.html";
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    if (Object.keys(jqXHR.responseJSON.error).length > 0) {
+                        $('#summary')
+                            .text(`Please fix ${Object.keys(jqXHR.responseJSON.error).length} below!`);
+                        validator.showErrors(jqXHR.responseJSON.error);
+                    }
+                }
+            }
+        );
+        return false;
     }
-}
-
-function postRegisterData(jsonData) {
-    var xmlhttp = new XMLHttpRequest();
-    xmlhttp.onreadystatechange = function () {
-        if (this.readyState == 4 && this.status == 201) {
-            var members = JSON.parse(this.responseText);
-            alert('Đăng nhập thành công !');
-            localStorage.setItem('token-key',members.token);
-        }
-    }
-    xmlhttp.open('POST', LOGIN_API , true);
-    xmlhttp.setRequestHeader("content-type", "application/json");
-    xmlhttp.send(jsonData);
-}
+});

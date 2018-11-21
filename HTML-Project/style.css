@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
-
+* {
+    font-family: Tahoma;
+    font-style: italic;
+}
 .navbar{
     width: 100%;
+    height: 100px;
 }
 
 .navbar .logo{
@@ -24,7 +28,7 @@
 .navbar .menu ul li{
     list-style: none;
     text-align: right;
-    float: left;
+    margin-left: 400px;
 }
 /* The navigation bar */
 .navbar {
@@ -37,8 +41,6 @@
 
 /* Links inside the navbar */
 .navbar a {
-    font-family: Indie Flower;
-    font-style: italic;
     float: left;
     display: block;
     color: grey;

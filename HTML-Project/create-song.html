@@ -5,15 +5,13 @@
     <title>Sunshine's Playlist</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+        *{
+            font-family: Tahoma;
+        }
 
         body {
             font-family: Arial, Helvetica, sans-serif;
             margin: 50px;
-        }
-
-        h2{
-            font-family: Indie Flower;
         }
 
         form {
@@ -25,28 +23,16 @@
             padding: 10px;
         }
         .container{
-            font-family: Indie Flower;
             padding-top: 50px;
         }
 
-        input[type=text]{
+        input[type=text], input[type=submit], input[type=reset]{
             width: 100%;
             padding: 12px 20px;
             margin: 8px 0;
             display: inline-block;
             border: 1px solid #ccc;
             box-sizing: border-box;
-        }
-        .danger-text {
-            color: red;
-        }
-
-        .success-text {
-            color: green;
-        }
-
-        .hidden-text {
-            display: none;
         }
     </style>
 </head>
@@ -67,44 +53,42 @@
     </div>
     <div class="container">
         <h2>Create Song</h2>
-        <form action="" name="register-form">
+        <form action="" name="register-form" id="create-form">
             <div class="form-group">
                 <label>Name</label>
                 <input type="text" name="name" class="form-control">
-                <span class="danger-text hidden-text"></span>
             </div>
             <div class="form-group">
                 <label>Singer</label>
                 <input type="text" name="singer" class="form-control">
-                <span class="danger-text hidden-text"></span>
             </div>
             <div class="form-group">
                 <label>Description</label>
                 <input type="text" name="description" class="form-control">
-                <span class="danger-text hidden-text"></span>
             </div>
             <div class="form-group">
                 <label>Author</label>
                 <input type="text" name="author" class="form-control">
-                <span class="danger-text hidden-text"></span>
             </div>
             <div class="form-group">
                 <label>Thumbnail</label>
                 <input type="text" name="thumbnail" class="form-control">
-                <span class="danger-text hidden-text"></span>
             </div>
             <div class="form-group">
                 <label>Link</label>
                 <input type="text" name="link" class="form-control">
-                <span class="danger-text hidden-text"></span>
             </div>
             <div class="form-group">
                 <label> </label>
-                <input type="button" name="btn-submit" value="Submit" class="form-control">
+                <input type="submit" name="btn-submit" value="Submit" class="form-control">
                 <input type="reset" name="reset" class="form-control">
             </div>
         </form>
     </div>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="jquery.validate.min.js"></script>
+    <script src="additional-methods.min.js"></script>
+    <script src="config.js"></script>
     <script src="create-song.js"></script>
 </body>
 </html>
