@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List Song</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<style>
+    * {
+        font-family: Tahoma;
+        margin: 7px;
+    }
+    .song-item {
+        border: 1px solid rgba(13,23,20,0.2);
+        border-radius: 10px;
+    }
+    .song-item:after {
+        content: '';
+        clear: both;
+        display: table;
+    }
+    .song-index {
+        float: left;
+        width: 5%;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 2%;
+        padding-left: 1%;
+    }
+    .song-thumbnail {
+        float: left;
+        width: 10%;
+    }
+    .song-thumbnail img {
+        width: 100%;
+        border-radius: 10px;
+    }
+    .song-infor {
+        padding-top: 1%;
+        float: left;
+        width: 20%;
+    }
+    .song-infor .song-name {
+        font-weight: bold;
+    }
+    .song-infor .song-singer {
+        font-weight: lighter;
+        color: rgba(0,0,23,0.47);
+    }
+    .song-control {
+        padding-top: 3%;
+        color: dodgerblue;
+        cursor: pointer;
+        text-decoration: underline;
+        float: left;
+        width: 10%;
+    }
+
+    .song-detail {
+        float: left;
+        width: 50%;
+        padding-top: 0.5%;
+        font-weight: bold;
+    }
+</style>
+</head>
+<body>
+<h1>Song form</h1>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">My Song</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="list.html">Latest Song<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="upload.html">Create Song</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Register
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="login.html">Login</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>
+</nav>
+<div class="song-player">
+    <div class="song-detail">
+        <marquee behavior="scroll" direction="left">
+            <div class="current-song-title">
+                <span id="current-play-title"></span>
+            </div>
+        </marquee>
+    </div>
+    <div class="player">
+        <audio controls id="my-mp3" autoplay>
+            <source src="" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+</div>
+<div class="list-song" id="list-song"></div>
+
+<script src="jquery-3.3.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="jquery.validate.min.js"></script>
+<script src="additional-methods.min.js"></script>
+<script src="config.js"></script>
+<script src="list.js"></script>
+</body>
+</html>
