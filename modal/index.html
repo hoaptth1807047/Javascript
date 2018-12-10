@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Sunshine</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><h4>My Sunshine</h4></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#"><h4>Page 1<span class="caret"></span></h4></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Page 1-1</a></li>
+                        <li><a href="#">Page 1-2</a></li>
+                        <li><a href="#">Page 1-3</a></li>
+                    </ul>
+                </li>
+                <li><a href="latest-song.html"><h4>Lastest Song</h4></a></li>
+                <li><a data-toggle="modal" data-target="#createModal"><h4>Create Song</h4></a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a data-toggle="modal" data-target="#registerModal"><h4><span class="glyphicon glyphicon-user"></span>Sign Up</h4></a></li>
+                <li><a data-toggle="modal" data-target="#loginModal"><h4><span class="glyphicon glyphicon-log-in"></span>
+                    Login</h4></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div class="main">
+    <img src="https://i.ytimg.com/vi/By8Iv_TpxCI/maxresdefault.jpg" alt="">
+</div>
+<div class="Scroll"><a href="#">^</a></div>
+
+
+<!--Login Modal-->
+<div class="container">
+    <div class="modal fade" id="loginModal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h1 class="modal-title">Login Member</h1>
+                </div>
+                <div class="modal-body">
+                    <form action="" name="register-form" id="login-member">
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" name="email" class="form-control" placeholder="Enter Email">
+                        </div>
+                        <div class="form-group">
+                            <label>Password</label>
+                            <input type="password" name="password" class="form-control" placeholder="Enter Password">
+                        </div>
+                        <label>
+                            <input type="checkbox" checked="checked" name="remember"> Remember me
+                        </label>
+                        <div class="form-group">
+                            <button type="reset" class="btn btn-defaut" name="btn-reset" value="Reset">Reset</button>
+                            <button type="submit" class="btn btn-primary" name="btn-login" value="Login">Login</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Register Modal-->
+<div class="container">
+    <div class="modal fade" id="registerModal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h1 class="modal-title">Sign Up</h1>
+                </div>
+                <div class="modal-body">
+                    <form action="" name="register-form" id="register-member">
+                        <div class="form-group">
+                            <label>First Name</label>
+                            <input class="form-control" type="text" name="firstName">
+                        </div>
+                        <div class="form-group">
+                            <label>Last Name</label>
+                            <input class="form-control" type="text" name="lastName">
+                        </div>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input class="form-control" type="text" name="email">
+                        </div>
+                        <div class="form-group">
+                            <label>Password</label>
+                            <input class="form-control" type="password" name="password">
+                        </div>
+                        <div class="form-group">
+                            <label>Confirm Password</label>
+                            <input class="form-control" type="password" name="confirm-password">
+                        </div>
+                        <div class="form-group">
+                            <label>Address</label>
+                            <input class="form-control" type="text" name="address">
+                        </div>
+                        <div class="form-group">
+                            <label>Phone</label>
+                            <input class="form-control" type="text" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label>Avatar</label>
+                            <input class="form-control" type="text" name="avatar">
+                        </div>
+                        <div class="form-group">
+                            <label>Gender</label>
+                            <select name="gender">
+                                <option value="1">Male</option>
+                                <option value="0">Female</option>
+                                <option value="2">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Birthday</label>
+                            <input class="form-control" type="date" name="birthday">
+                        </div>
+                        <div class="form-group">
+                            <label>&nbsp;</label>
+                            <button type="reset" class="btn btn-defaut" name="btn-reset" value="Reset">Reset</button>
+                            <button type="submit" class="btn btn-primary" name="btn-register" value="Register">Sign Up</button>
+                        </div>
+                    </form>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Create Modal-->
+<div class="container">
+    <div class="modal fade" id="createModal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h1 class="modal-title">Create Song</h1>
+                </div>
+                <div class="modal-body">
+                    <form action="" name="register-form" id="create-form">
+                        <div class="form-group">
+                            <label>Name</label>
+                            <input type="text" name="name" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>Singer</label>
+                            <input type="text" name="singer" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>Description</label>
+                            <input type="text" name="description" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>Author</label>
+                            <input type="text" name="author" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>Thumbnail</label>
+                            <input type="text" name="thumbnail" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>Link</label>
+                            <input type="text" name="link" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>&nbsp;</label>
+                            <button type="reset" class="btn btn-defaut" name="btn-reset" value="Reset">Reset</button>
+                            <button type="submit" class="btn btn-primary" name="btn-create" value="Create">Create</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div>Copyright &copy; 2017 Akaseto</div>
+</footer>
+<script src="config.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="jquery.validate.min.js"></script>
+<script src="additional-methods.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="myjs.js"></script>
+</body>
+</html>

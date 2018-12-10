@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="62428df7-b15d-44b9-8468-9b4cdf88bcad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../AngularJS/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AngularJS/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AngularJS/jsAngular.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myjs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20-10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20-10/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20-10/myjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/../20-10/myjs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigment Boostrap JQuery/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigment Boostrap JQuery/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigment Boostrap JQuery/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigment Boostrap JQuery/list.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigment Boostrap JQuery/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigment Boostrap JQuery/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigment Boostrap JQuery/upload.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigment Boostrap JQuery/upload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentBoostrapJQuery/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AssigmentBoostrapJQuery/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Form-demo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Form-demo/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Form-demo/myjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Form-demo/myjs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML-CSS-JS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HTML-CSS-JS/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML-CSS-JS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../HTML-CSS-JS/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML-CSS-JS/myjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/../HTML-CSS-JS/myjs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML-CSS-JS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../HTML-CSS-JS/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML-Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HTML-Project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML-Project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../HTML-Project/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML-Project/latest-song.html" beforeDir="false" afterPath="$PROJECT_DIR$/../HTML-Project/latest-song.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML-Project/member-login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../HTML-Project/member-login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML-Project/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../HTML-Project/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mp3/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mp3/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mp3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mp3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mp3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Mp3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mp3/myjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Mp3/myjs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mp3/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyJavascript/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../MyJavascript/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Register/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Register/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Register/myjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Register/myjs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Register/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Register/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Search-my-tube- advanced/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Search-my-tube- advanced/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Search-my-tube- advanced/myjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Search-my-tube- advanced/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Search-my-tube-advanced/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Search-my-tube-advanced/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Search-my-tube-advanced/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Search-my-tube-advanced/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Search-my-youtube/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Search-my-youtube/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Search-my-youtube/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Search-my-youtube/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Search-my-youtube/myjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Search-my-youtube/myjs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Search-my-youtube/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Search-my-youtube/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T1809E/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../T1809E/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T1809E/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../T1809E/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Table-Demo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Table-Demo/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Validate-using-JQuery/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Validate-using-JQuery/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Youtube-t1809E/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Youtube-t1809E/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../check/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../check_my_game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../check_my_game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../check_my_game/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../check_my_game/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../check_my_game/myjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/../check_my_game/myjs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../check_my_game/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../check_my_game/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-responstive/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../demo-responstive/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-responstive/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../demo-responstive/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../object/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../object/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../object/myjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/../object/myjs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../object/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../object/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../october/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../october/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../october/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../october/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../october/myjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/../october/myjs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../october/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../october/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pig_runs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pig_runs/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myjs.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="640">
+              <caret line="149" column="54" lean-forward="true" selection-start-line="149" selection-start-column="54" selection-end-line="149" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/latest-song.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2033">
+              <caret line="107" column="6" selection-start-line="107" selection-start-column="6" selection-end-line="107" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/login.html" />
+        <option value="$PROJECT_DIR$/iii.html" />
+        <option value="$PROJECT_DIR$/myjs.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/latest-song.html" />
+        <option value="$PROJECT_DIR$/index.css" />
+        <option value="$PROJECT_DIR$/MyScss.css" />
+        <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/Song.js" />
+        <option value="$PROJECT_DIR$/Authentication.js" />
+        <option value="$PROJECT_DIR$/yy.html" />
+        <option value="$PROJECT_DIR$/ii.html" />
+        <option value="$PROJECT_DIR$/style.css" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="960" />
+    <option name="y" value="15" />
+    <option name="width" value="940" />
+    <option name="height" value="990" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="modal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="modal" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="62428df7-b15d-44b9-8468-9b4cdf88bcad" name="Default Changelist" comment="" />
+      <created>1543047710981</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543047710981</updated>
+      <workItem from="1543047712295" duration="7398000" />
+      <workItem from="1543221269234" duration="2175000" />
+      <workItem from="1543223685225" duration="2119000" />
+      <workItem from="1543228665095" duration="160000" />
+      <workItem from="1543228977933" duration="27230000" />
+      <workItem from="1543415125054" duration="5474000" />
+      <workItem from="1543750706706" duration="431000" />
+      <workItem from="1543991709740" duration="664000" />
+      <workItem from="1544097019124" duration="1192000" />
+      <workItem from="1544164578533" duration="719000" />
+      <workItem from="1544401665621" duration="557000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="48119000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24983476" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/login.html" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/block.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="248" column="16" selection-start-line="248" selection-start-column="16" selection-end-line="248" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iii.html" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/common.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="127" column="18" selection-start-line="127" selection-start-column="18" selection-end-line="127" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery-3.3.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="617">
+          <caret line="147" column="32" selection-start-line="147" selection-start-column="32" selection-end-line="147" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/latest-song.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2033">
+          <caret line="107" column="6" selection-start-line="107" selection-start-column="6" selection-end-line="107" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Authentication.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="617">
+          <caret line="65" column="1" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ii.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4147">
+          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#a#1;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#a#2;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#a#3;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#a#4;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#form#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#form#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#form#0;n#div#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1767">
+          <caret line="93" column="1" selection-start-line="93" selection-start-column="1" selection-end-line="93" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyScss.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Song.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="617">
+          <caret line="99" column="1" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#64#71#1" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunshine.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myjs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="149" column="54" lean-forward="true" selection-start-line="149" selection-start-column="54" selection-end-line="149" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
